@@ -1,7 +1,7 @@
 import requests
 
 start_page = 1
-end_page = 1
+end_page = 18
 filtered_lines =[]
 all_urls = []
 repos = []
