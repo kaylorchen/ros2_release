@@ -1,0 +1,91 @@
+repositories:
+  mola-release:
+    type: git
+    url: https://github.com/ros2-gbp/mola-release.git
+  ecal-release:
+    type: git
+    url: https://github.com/ros2-gbp/ecal-release.git
+  the_navigation_gauntlet-release:
+    type: git
+    url: https://github.com/ros2-gbp/the_navigation_gauntlet-release.git
+  metro_nav-release:
+    type: git
+    url: https://github.com/ros2-gbp/metro_nav-release.git
+  metrics_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/metrics_msgs-release.git
+  metro_gazebo_plugins-release:
+    type: git
+    url: https://github.com/ros2-gbp/metro_gazebo_plugins-release.git
+  ros2-gbp-github-org:
+    type: git
+    url: https://github.com/ros2-gbp/ros2-gbp-github-org.git
+  ouster-ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/ouster-ros-release.git
+  mapviz-release:
+    type: git
+    url: https://github.com/ros2-gbp/mapviz-release.git
+  raspimouse2-release:
+    type: git
+    url: https://github.com/ros2-gbp/raspimouse2-release.git
+  Universal_Robots_ROS2_Driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
+  aerostack2-release:
+    type: git
+    url: https://github.com/ros2-gbp/aerostack2-release.git
+  ros2_tracing-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_tracing-release.git
+  urdf_launch-release:
+    type: git
+    url: https://github.com/ros2-gbp/urdf_launch-release.git
+  mvsim-release:
+    type: git
+    url: https://github.com/ros2-gbp/mvsim-release.git
+  ign_ros2_control-release:
+    type: git
+    url: https://github.com/ros2-gbp/ign_ros2_control-release.git
+  gazebo_ros2_control-release:
+    type: git
+    url: https://github.com/ros2-gbp/gazebo_ros2_control-release.git
+  nao_lola-release:
+    type: git
+    url: https://github.com/ros2-gbp/nao_lola-release.git
+  mrpt_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/mrpt_msgs-release.git
+  marti_common-release:
+    type: git
+    url: https://github.com/ros2-gbp/marti_common-release.git
+  marti_messages-release:
+    type: git
+    url: https://github.com/ros2-gbp/marti_messages-release.git
+  cyclonedds-release:
+    type: git
+    url: https://github.com/ros2-gbp/cyclonedds-release.git
+  fastrtps-release:
+    type: git
+    url: https://github.com/ros2-gbp/fastrtps-release.git
+  foxglove_bridge-release:
+    type: git
+    url: https://github.com/ros2-gbp/foxglove_bridge-release.git
+  rviz-release:
+    type: git
+    url: https://github.com/ros2-gbp/rviz-release.git
+  lanelet2-release:
+    type: git
+    url: https://github.com/ros2-gbp/lanelet2-release.git
+  ament_cmake-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_cmake-release.git
+  ament_index-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_index-release.git
+  osrf_pycommon-release:
+    type: git
+    url: https://github.com/ros2-gbp/osrf_pycommon-release.git
+  image_common-release:
+    type: git
+    url: https://github.com/ros2-gbp/image_common-release.git
