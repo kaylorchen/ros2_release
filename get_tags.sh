@@ -18,7 +18,8 @@ ls $1 | while read repo; do
       # echo $version >> ${top_dir}/version.txt
       count=0
       echo $tags |tr " " "\n" | while read tag; do
-        echo "  $repo$count:" >> ${top_dir}/ros2_release_humble.repos
+        pkg_name=$(echo $tag | awk -F '/' '{print $2}' | awk -F '_' '{print $1}')
+        echo "  $pkg_name:" >> ${top_dir}/ros2_release_humble.repos
         ((count++))
         echo "    type: git" >> ${top_dir}/ros2_release_humble.repos
         echo "    url: https://github.com/ros2-gbp/$repo.git" >> ${top_dir}/ros2_release_humble.repos
