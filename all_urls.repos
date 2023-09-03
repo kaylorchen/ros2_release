@@ -1,37 +1,64 @@
 repositories:
+  rcss3d_nao-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcss3d_nao-release.git
   mola-release:
     type: git
     url: https://github.com/ros2-gbp/mola-release.git
-  ecal-release:
+  mvsim-release:
     type: git
-    url: https://github.com/ros2-gbp/ecal-release.git
-  the_navigation_gauntlet-release:
+    url: https://github.com/ros2-gbp/mvsim-release.git
+  rig_reconfigure-release:
     type: git
-    url: https://github.com/ros2-gbp/the_navigation_gauntlet-release.git
+    url: https://github.com/ros2-gbp/rig_reconfigure-release.git
+  nmea_navsat_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/nmea_navsat_driver-release.git
+  ouster-ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/ouster-ros-release.git
+  behaviortree_cpp_v4-release:
+    type: git
+    url: https://github.com/ros2-gbp/behaviortree_cpp_v4-release.git
+  usb_cam-release:
+    type: git
+    url: https://github.com/ros2-gbp/usb_cam-release.git
   metro_nav-release:
     type: git
     url: https://github.com/ros2-gbp/metro_nav-release.git
   metrics_msgs-release:
     type: git
     url: https://github.com/ros2-gbp/metrics_msgs-release.git
+  ecal-release:
+    type: git
+    url: https://github.com/ros2-gbp/ecal-release.git
+  Universal_Robots_ROS2_Driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
+  ur_description-release:
+    type: git
+    url: https://github.com/ros2-gbp/ur_description-release.git
+  rmf_visualization-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_visualization-release.git
+  rmf_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_ros2-release.git
+  the_navigation_gauntlet-release:
+    type: git
+    url: https://github.com/ros2-gbp/the_navigation_gauntlet-release.git
   metro_gazebo_plugins-release:
     type: git
     url: https://github.com/ros2-gbp/metro_gazebo_plugins-release.git
   ros2-gbp-github-org:
     type: git
     url: https://github.com/ros2-gbp/ros2-gbp-github-org.git
-  ouster-ros-release:
-    type: git
-    url: https://github.com/ros2-gbp/ouster-ros-release.git
   mapviz-release:
     type: git
     url: https://github.com/ros2-gbp/mapviz-release.git
   raspimouse2-release:
     type: git
     url: https://github.com/ros2-gbp/raspimouse2-release.git
-  Universal_Robots_ROS2_Driver-release:
-    type: git
-    url: https://github.com/ros2-gbp/Universal_Robots_ROS2_Driver-release.git
   aerostack2-release:
     type: git
     url: https://github.com/ros2-gbp/aerostack2-release.git
@@ -41,9 +68,6 @@ repositories:
   urdf_launch-release:
     type: git
     url: https://github.com/ros2-gbp/urdf_launch-release.git
-  mvsim-release:
-    type: git
-    url: https://github.com/ros2-gbp/mvsim-release.git
   ign_ros2_control-release:
     type: git
     url: https://github.com/ros2-gbp/ign_ros2_control-release.git
@@ -89,3 +113,1482 @@ repositories:
   image_common-release:
     type: git
     url: https://github.com/ros2-gbp/image_common-release.git
+  qt_gui_core-release:
+    type: git
+    url: https://github.com/ros2-gbp/qt_gui_core-release.git
+  demos-release:
+    type: git
+    url: https://github.com/ros2-gbp/demos-release.git
+  example_interfaces-release:
+    type: git
+    url: https://github.com/ros2-gbp/example_interfaces-release.git
+  geometry2-release:
+    type: git
+    url: https://github.com/ros2-gbp/geometry2-release.git
+  launch-release:
+    type: git
+    url: https://github.com/ros2-gbp/launch-release.git
+  launch_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/launch_ros-release.git
+  ros2_message_filters-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_message_filters-release.git
+  mimick_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/mimick_vendor-release.git
+  rcl-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcl-release.git
+  rclcpp-release:
+    type: git
+    url: https://github.com/ros2-gbp/rclcpp-release.git
+  rmw_connextdds-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_connextdds-release.git
+  rclpy-release:
+    type: git
+    url: https://github.com/ros2-gbp/rclpy-release.git
+  rmw_cyclonedds-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
+  rmw_fastrtps-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
+  ros2cli-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2cli-release.git
+  rosidl-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl-release.git
+  rosidl_python-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_python-release.git
+  rpyutils-release:
+    type: git
+    url: https://github.com/ros2-gbp/rpyutils-release.git
+  tinyxml2_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/tinyxml2_vendor-release.git
+  unique_identifier_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
+  ros2_control-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_control-release.git
+  ros2_controllers-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_controllers-release.git
+  heaphook-release:
+    type: git
+    url: https://github.com/ros2-gbp/heaphook-release.git
+  rplidar_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/rplidar_ros-release.git
+  social_nav_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/social_nav_ros-release.git
+  behaviortree_cpp-release:
+    type: git
+    url: https://github.com/ros2-gbp/behaviortree_cpp-release.git
+  aws_sdk_cpp_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/aws_sdk_cpp_vendor-release.git
+  flexbe_behavior_engine-release:
+    type: git
+    url: https://github.com/ros2-gbp/flexbe_behavior_engine-release.git
+  rmf_task-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_task-release.git
+  rmf_traffic_editor-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_traffic_editor-release.git
+  pybind11_json_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/pybind11_json_vendor-release.git
+  classic_bags-release:
+    type: git
+    url: https://github.com/ros2-gbp/classic_bags-release.git
+  ros2_kortex-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_kortex-release.git
+  metavision_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/metavision_driver-release.git
+  raspimouse_slam_navigation_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/raspimouse_slam_navigation_ros2-release.git
+  rtabmap-release:
+    type: git
+    url: https://github.com/ros2-gbp/rtabmap-release.git
+  navigation2-release:
+    type: git
+    url: https://github.com/ros2-gbp/navigation2-release.git
+  joint_state_publisher-release:
+    type: git
+    url: https://github.com/ros2-gbp/joint_state_publisher-release.git
+  raspimouse_ros2_examples-release:
+    type: git
+    url: https://github.com/ros2-gbp/raspimouse_ros2_examples-release.git
+  event_camera_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/event_camera_msgs-release.git
+  nao_button_sim-release:
+    type: git
+    url: https://github.com/ros2-gbp/nao_button_sim-release.git
+  ros2_planning_system-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_planning_system-release.git
+  nao_interfaces-release:
+    type: git
+    url: https://github.com/ros2-gbp/nao_interfaces-release.git
+  crane_plus-release:
+    type: git
+    url: https://github.com/ros2-gbp/crane_plus-release.git
+  laser_filters-release:
+    type: git
+    url: https://github.com/ros2-gbp/laser_filters-release.git
+  generate_parameter_library-release:
+    type: git
+    url: https://github.com/ros2-gbp/generate_parameter_library-release.git
+  flexbe_app-release:
+    type: git
+    url: https://github.com/ros2-gbp/flexbe_app-release.git
+  reach_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/reach_ros2-release.git
+  reach-release:
+    type: git
+    url: https://github.com/ros2-gbp/reach-release.git
+  simple_launch-release:
+    type: git
+    url: https://github.com/ros2-gbp/simple_launch-release.git
+  microstrain_inertial-release:
+    type: git
+    url: https://github.com/ros2-gbp/microstrain_inertial-release.git
+  picknik_controllers-release:
+    type: git
+    url: https://github.com/ros2-gbp/picknik_controllers-release.git
+  control_toolbox-release:
+    type: git
+    url: https://github.com/ros2-gbp/control_toolbox-release.git
+  realtime_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/realtime_tools-release.git
+  depthimage_to_laserscan-release:
+    type: git
+    url: https://github.com/ros2-gbp/depthimage_to_laserscan-release.git
+  google_benchmark_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/google_benchmark_vendor-release.git
+  rosbag2-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosbag2-release.git
+  rosidl_typesupport_fastrtps-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
+  rosidl_typesupport-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
+  webots_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/webots_ros2-release.git
+  septentrio_gnss_driver_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/septentrio_gnss_driver_ros2-release.git
+  ament_lint-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_lint-release.git
+  ros2_robotiq_gripper-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_robotiq_gripper-release.git
+  libcamera-release:
+    type: git
+    url: https://github.com/ros2-gbp/libcamera-release.git
+  popf-release:
+    type: git
+    url: https://github.com/ros2-gbp/popf-release.git
+  cascade_lifecycle-release:
+    type: git
+    url: https://github.com/ros2-gbp/cascade_lifecycle-release.git
+  executive_smach-release:
+    type: git
+    url: https://github.com/ros2-gbp/executive_smach-release.git
+  Universal_Robots_Client_Library-release:
+    type: git
+    url: https://github.com/ros2-gbp/Universal_Robots_Client_Library-release.git
+  rqt_bag-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_bag-release.git
+  examples-release:
+    type: git
+    url: https://github.com/ros2-gbp/examples-release.git
+  interactive_markers-release:
+    type: git
+    url: https://github.com/ros2-gbp/interactive_markers-release.git
+  rmw-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw-release.git
+  googletest-release:
+    type: git
+    url: https://github.com/ros2-gbp/googletest-release.git
+  resource_retriever-release:
+    type: git
+    url: https://github.com/ros2-gbp/resource_retriever-release.git
+  uncrustify_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/uncrustify_vendor-release.git
+  console_bridge_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/console_bridge_vendor-release.git
+  libyaml_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/libyaml_vendor-release.git
+  yaml_cpp_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/yaml_cpp_vendor-release.git
+  orocos_kdl_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/orocos_kdl_vendor-release.git
+  pybind11_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/pybind11_vendor-release.git
+  rosidl_dynamic_typesupport-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_dynamic_typesupport-release.git
+  spdlog_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/spdlog_vendor-release.git
+  mrpt2-release:
+    type: git
+    url: https://github.com/ros2-gbp/mrpt2-release.git
+  twist_mux_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/twist_mux_msgs-release.git
+  ros2_canopen-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_canopen-release.git
+  rmw_gurumdds-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_gurumdds-release.git
+  rmf_simulation-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_simulation-release.git
+  rmf_api_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_api_msgs-release.git
+  catch_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/catch_ros2-release.git
+  gps_umd-release:
+    type: git
+    url: https://github.com/ros2-gbp/gps_umd-release.git
+  gz_math6_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/gz_math6_vendor-release.git
+  gz_cmake2_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/gz_cmake2_vendor-release.git
+  joystick_drivers-release:
+    type: git
+    url: https://github.com/ros2-gbp/joystick_drivers-release.git
+  rclc-release:
+    type: git
+    url: https://github.com/ros2-gbp/rclc-release.git
+  rc_reason_clients-release:
+    type: git
+    url: https://github.com/ros2-gbp/rc_reason_clients-release.git
+  mrpt_path_planning-release:
+    type: git
+    url: https://github.com/ros2-gbp/mrpt_path_planning-release.git
+  mp2p_icp-release:
+    type: git
+    url: https://github.com/ros2-gbp/mp2p_icp-release.git
+  tuw_geometry-release:
+    type: git
+    url: https://github.com/ros2-gbp/tuw_geometry-release.git
+  urg_node_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/urg_node_msgs-release.git
+  rqt_srv-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_srv-release.git
+  fastcdr-release:
+    type: git
+    url: https://github.com/ros2-gbp/fastcdr-release.git
+  gtsam-release:
+    type: git
+    url: https://github.com/ros2-gbp/gtsam-release.git
+  rmf_variants-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_variants-release.git
+  novatel_gps_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/novatel_gps_driver-release.git
+  teleop_twist_joy-release:
+    type: git
+    url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
+  rmf_visualization_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_visualization_msgs-release.git
+  rmf_utils-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_utils-release.git
+  rmf_traffic-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_traffic-release.git
+  rmf_internal_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_internal_msgs-release.git
+  rmf_building_map_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_building_map_msgs-release.git
+  nlohmann_json_schema_validator_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/nlohmann_json_schema_validator_vendor-release.git
+  menge_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/menge_vendor-release.git
+  ament_cmake_catch2-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_cmake_catch2-release.git
+  rmf_battery-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_battery-release.git
+  swri_console-release:
+    type: git
+    url: https://github.com/ros2-gbp/swri_console-release.git
+  rqt_msg-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_msg-release.git
+  rqt-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt-release.git
+  robot_state_publisher-release:
+    type: git
+    url: https://github.com/ros2-gbp/robot_state_publisher-release.git
+  common_interfaces-release:
+    type: git
+    url: https://github.com/ros2-gbp/common_interfaces-release.git
+  mavros-release:
+    type: git
+    url: https://github.com/ros2-gbp/mavros-release.git
+  mavlink-gbp-release:
+    type: git
+    url: https://github.com/ros2-gbp/mavlink-gbp-release.git
+  ros_tutorials-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_tutorials-release.git
+  ros2_socketcan-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_socketcan-release.git
+  fluent_bit_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/fluent_bit_vendor-release.git
+  control_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/control_msgs-release.git
+  turtlebot4-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot4-release.git
+  velodyne-release:
+    type: git
+    url: https://github.com/ros2-gbp/velodyne-release.git
+  ros1_bridge-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros1_bridge-release.git
+  robot_localization-release:
+    type: git
+    url: https://github.com/ros2-gbp/robot_localization-release.git
+  ublox_dgnss-release:
+    type: git
+    url: https://github.com/ros2-gbp/ublox_dgnss-release.git
+  ros_ign-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_ign-release.git
+  plotjuggler-release:
+    type: git
+    url: https://github.com/ros2-gbp/plotjuggler-release.git
+  rviz_2d_overlay_plugins-release:
+    type: git
+    url: https://github.com/ros2-gbp/rviz_2d_overlay_plugins-release.git
+  grid_map-release:
+    type: git
+    url: https://github.com/ros2-gbp/grid_map-release.git
+  sros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/sros2-release.git
+  moveit_resources-release:
+    type: git
+    url: https://github.com/ros2-gbp/moveit_resources-release.git
+  topic_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/topic_tools-release.git
+  moveit2-release:
+    type: git
+    url: https://github.com/ros2-gbp/moveit2-release.git
+  aruco_opencv-release:
+    type: git
+    url: https://github.com/ros2-gbp/aruco_opencv-release.git
+  turtlebot4_tutorials-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot4_tutorials-release.git
+  diagnostics-release:
+    type: git
+    url: https://github.com/ros2-gbp/diagnostics-release.git
+  astuff_sensor_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/astuff_sensor_msgs-release.git
+  turtlebot4_simulator-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot4_simulator-release.git
+  create3_sim-release:
+    type: git
+    url: https://github.com/ros2-gbp/create3_sim-release.git
+  zbar_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/zbar_ros-release.git
+  moveit_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/moveit_msgs-release.git
+  ament_package-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_package-release.git
+  rcpputils-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcpputils-release.git
+  libstatistics_collector-release:
+    type: git
+    url: https://github.com/ros2-gbp/libstatistics_collector-release.git
+  rqt_plot-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_plot-release.git
+  rqt_graph-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_graph-release.git
+  foonathan_memory_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/foonathan_memory_vendor-release.git
+  urdfdom-release:
+    type: git
+    url: https://github.com/ros2-gbp/urdfdom-release.git
+  urdfdom_headers-release:
+    type: git
+    url: https://github.com/ros2-gbp/urdfdom_headers-release.git
+  urdf-release:
+    type: git
+    url: https://github.com/ros2-gbp/urdf-release.git
+  tlsf-release:
+    type: git
+    url: https://github.com/ros2-gbp/tlsf-release.git
+  tinyxml_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/tinyxml_vendor-release.git
+  test_interface_files-release:
+    type: git
+    url: https://github.com/ros2-gbp/test_interface_files-release.git
+  tango_icons_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/tango_icons_vendor-release.git
+  rqt_topic-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_topic-release.git
+  rqt_shell-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_shell-release.git
+  rqt_service_caller-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_service_caller-release.git
+  rqt_reconfigure-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_reconfigure-release.git
+  rqt_py_console-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_py_console-release.git
+  rqt_publisher-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_publisher-release.git
+  rqt_console-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_console-release.git
+  rqt_action-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_action-release.git
+  rosidl_runtime_py-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_runtime_py-release.git
+  rosidl_defaults-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_defaults-release.git
+  rosidl_dds-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_dds-release.git
+  rosidl_core-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_core-release.git
+  image_transport_plugins-release:
+    type: git
+    url: https://github.com/ros2-gbp/image_transport_plugins-release.git
+  proxsuite-release:
+    type: git
+    url: https://github.com/ros2-gbp/proxsuite-release.git
+  rmw_dds_common-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_dds_common-release.git
+  python_qt_binding-release:
+    type: git
+    url: https://github.com/ros2-gbp/python_qt_binding-release.git
+  python_cmake_module-release:
+    type: git
+    url: https://github.com/ros2-gbp/python_cmake_module-release.git
+  eigen3_cmake_module-release:
+    type: git
+    url: https://github.com/ros2-gbp/eigen3_cmake_module-release.git
+  ros2cli_common_extensions-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2cli_common_extensions-release.git
+  rmw_implementation-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_implementation-release.git
+  realtime_support-release:
+    type: git
+    url: https://github.com/ros2-gbp/realtime_support-release.git
+  ros_testing-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_testing-release.git
+  rcutils-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcutils-release.git
+  performance_test_fixture-release:
+    type: git
+    url: https://github.com/ros2-gbp/performance_test_fixture-release.git
+  keyboard_handler-release:
+    type: git
+    url: https://github.com/ros2-gbp/keyboard_handler-release.git
+  laser_geometry-release:
+    type: git
+    url: https://github.com/ros2-gbp/laser_geometry-release.git
+  navigation_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/navigation_msgs-release.git
+  rcl_logging-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcl_logging-release.git
+  class_loader-release:
+    type: git
+    url: https://github.com/ros2-gbp/class_loader-release.git
+  ament_cmake_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
+  rcl_interfaces-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcl_interfaces-release.git
+  pluginlib-release:
+    type: git
+    url: https://github.com/ros2-gbp/pluginlib-release.git
+  kdl_parser-release:
+    type: git
+    url: https://github.com/ros2-gbp/kdl_parser-release.git
+  ros2_v4l2_camera-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_v4l2_camera-release.git
+  ros_environment-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_environment-release.git
+  osrf_testing_tools_cpp-release:
+    type: git
+    url: https://github.com/ros2-gbp/osrf_testing_tools_cpp-release.git
+  urdfdom_py-release:
+    type: git
+    url: https://github.com/ros2-gbp/urdfdom_py-release.git
+  zmqpp_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/zmqpp_vendor-release.git
+  rosidl_dynamic_typesupport_fastrtps-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_dynamic_typesupport_fastrtps-release.git
+  geographic_info-release:
+    type: git
+    url: https://github.com/ros2-gbp/geographic_info-release.git
+  rot_conv_lib-release:
+    type: git
+    url: https://github.com/ros2-gbp/rot_conv_lib-release.git
+  openni2_camera-release:
+    type: git
+    url: https://github.com/ros2-gbp/openni2_camera-release.git
+  vrpn_mocap-release:
+    type: git
+    url: https://github.com/ros2-gbp/vrpn_mocap-release.git
+  gc_spl-release:
+    type: git
+    url: https://github.com/ros2-gbp/gc_spl-release.git
+  message_tf_frame_transformer-release:
+    type: git
+    url: https://github.com/ros2-gbp/message_tf_frame_transformer-release.git
+  sdformat_urdf-release:
+    type: git
+    url: https://github.com/ros2-gbp/sdformat_urdf-release.git
+  rsl-release:
+    type: git
+    url: https://github.com/ros2-gbp/rsl-release.git
+  ros_industrial_cmake_boilerplate-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_industrial_cmake_boilerplate-release.git
+  py_trees_js-release:
+    type: git
+    url: https://github.com/ros2-gbp/py_trees_js-release.git
+  perception_open3d-release:
+    type: git
+    url: https://github.com/ros2-gbp/perception_open3d-release.git
+  ompl-release:
+    type: git
+    url: https://github.com/ros2-gbp/ompl-release.git
+  gazebo_ros_pkgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/gazebo_ros_pkgs-release.git
+  fmilibrary_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/fmilibrary_vendor-release.git
+  fmi_adapter-release:
+    type: git
+    url: https://github.com/ros2-gbp/fmi_adapter-release.git
+  control_box_rst-release:
+    type: git
+    url: https://github.com/ros2-gbp/control_box_rst-release.git
+  aws_robomaker_small_warehouse_world-release:
+    type: git
+    url: https://github.com/ros2-gbp/aws_robomaker_small_warehouse_world-release.git
+  SMACC2-release:
+    type: git
+    url: https://github.com/ros2-gbp/SMACC2-release.git
+  zenoh_bridge_dds-release:
+    type: git
+    url: https://github.com/ros2-gbp/zenoh_bridge_dds-release.git
+  xacro-release:
+    type: git
+    url: https://github.com/ros2-gbp/xacro-release.git
+  warehouse_ros_sqlite-release:
+    type: git
+    url: https://github.com/ros2-gbp/warehouse_ros_sqlite-release.git
+  warehouse_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/warehouse_ros-release.git
+  vrpn-release:
+    type: git
+    url: https://github.com/ros2-gbp/vrpn-release.git
+  vitis_common-release:
+    type: git
+    url: https://github.com/ros2-gbp/vitis_common-release.git
+  visp-release:
+    type: git
+    url: https://github.com/ros2-gbp/visp-release.git
+  vision_opencv-release:
+    type: git
+    url: https://github.com/ros2-gbp/vision_opencv-release.git
+  vision_msgs_layers-release:
+    type: git
+    url: https://github.com/ros2-gbp/vision_msgs_layers-release.git
+  vision_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/vision_msgs-release.git
+  velodyne_simulator-release:
+    type: git
+    url: https://github.com/ros2-gbp/velodyne_simulator-release.git
+  variants-release:
+    type: git
+    url: https://github.com/ros2-gbp/variants-release.git
+  urg_node-release:
+    type: git
+    url: https://github.com/ros2-gbp/urg_node-release.git
+  urg_c-release:
+    type: git
+    url: https://github.com/ros2-gbp/urg_c-release.git
+  urdf_tutorial-release:
+    type: git
+    url: https://github.com/ros2-gbp/urdf_tutorial-release.git
+  ur_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/ur_msgs-release.git
+  udp_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/udp_msgs-release.git
+  ublox-release:
+    type: git
+    url: https://github.com/ros2-gbp/ublox-release.git
+  twist_stamper-release:
+    type: git
+    url: https://github.com/ros2-gbp/twist_stamper-release.git
+  twist_mux-release:
+    type: git
+    url: https://github.com/ros2-gbp/twist_mux-release.git
+  tvm_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/tvm_vendor-release.git
+  maliput_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_ros-release.git
+  turtlebot3_simulations-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot3_simulations-release.git
+  turtlebot3_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot3_msgs-release.git
+  turbojpeg_compressed_image_transport-release:
+    type: git
+    url: https://github.com/ros2-gbp/turbojpeg_compressed_image_transport-release.git
+  transport_drivers-release:
+    type: git
+    url: https://github.com/ros2-gbp/transport_drivers-release.git
+  tracetools_analysis-release:
+    type: git
+    url: https://github.com/ros2-gbp/tracetools_analysis-release.git
+  tracetools_acceleration-release:
+    type: git
+    url: https://github.com/ros2-gbp/tracetools_acceleration-release.git
+  tinyspline_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/tinyspline_vendor-release.git
+  turtlebot3_manipulation-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot3_manipulation-release.git
+  tf_transformations_release:
+    type: git
+    url: https://github.com/ros2-gbp/tf_transformations_release.git
+  tf2_2d-release:
+    type: git
+    url: https://github.com/ros2-gbp/tf2_2d-release.git
+  tensorrt_cmake_module-release:
+    type: git
+    url: https://github.com/ros2-gbp/tensorrt_cmake_module-release.git
+  teleop_twist_keyboard-release:
+    type: git
+    url: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
+  teleop_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/teleop_tools-release.git
+  system_modes-release:
+    type: git
+    url: https://github.com/ros2-gbp/system_modes-release.git
+  ros_system_fingerprint-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_system_fingerprint-release.git
+  stubborn_buddies-release:
+    type: git
+    url: https://github.com/ros2-gbp/stubborn_buddies-release.git
+  stomp-release:
+    type: git
+    url: https://github.com/ros2-gbp/stomp-release.git
+  srdfdom-release:
+    type: git
+    url: https://github.com/ros2-gbp/srdfdom-release.git
+  sophus-release:
+    type: git
+    url: https://github.com/ros2-gbp/sophus-release.git
+  sol_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/sol_vendor-release.git
+  soccer_visualization-release:
+    type: git
+    url: https://github.com/ros2-gbp/soccer_visualization-release.git
+  soccer_vision_3d_rviz_markers-release:
+    type: git
+    url: https://github.com/ros2-gbp/soccer_vision_3d_rviz_markers-release.git
+  soccer_object_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/soccer_object_msgs-release.git
+  soccer_interfaces-release:
+    type: git
+    url: https://github.com/ros2-gbp/soccer_interfaces-release.git
+  snowbot_release:
+    type: git
+    url: https://github.com/ros2-gbp/snowbot_release.git
+  slider_publisher-release:
+    type: git
+    url: https://github.com/ros2-gbp/slider_publisher-release.git
+  simple_actions-release:
+    type: git
+    url: https://github.com/ros2-gbp/simple_actions-release.git
+  rviz_visual_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/rviz_visual_tools-release.git
+  ruckig-release:
+    type: git
+    url: https://github.com/ros2-gbp/ruckig-release.git
+  rtcm_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/rtcm_msgs-release.git
+  rt_manipulators_cpp-release:
+    type: git
+    url: https://github.com/ros2-gbp/rt_manipulators_cpp-release.git
+  rqt_tf_tree-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_tf_tree-release.git
+  rqt_runtime_monitor-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_runtime_monitor-release.git
+  rqt_robot_steering-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_robot_steering-release.git
+  rqt_robot_monitor-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_robot_monitor-release.git
+  rqt_robot_dashboard-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_robot_dashboard-release.git
+  rqt_moveit-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_moveit-release.git
+  rqt_image_view-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_image_view-release.git
+  rqt_image_overlay-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_image_overlay-release.git
+  rqt_common_plugins-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_common_plugins-release.git
+  rospy_message_converter-release:
+    type: git
+    url: https://github.com/ros2-gbp/rospy_message_converter-release.git
+  rosbridge_suite-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosbridge_suite-release.git
+  ros_workspace-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_workspace-release.git
+  ros_image_to_qimage-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_image_to_qimage-release.git
+  ros_canopen-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_canopen-release.git
+  ros2launch_security-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2launch_security-release.git
+  ros2acceleration-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2acceleration-release.git
+  ros2_ouster_drivers-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_ouster_drivers-release.git
+  robot_calibration-release:
+    type: git
+    url: https://github.com/ros2-gbp/robot_calibration-release.git
+  rmf_cmake_uncrustify-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_cmake_uncrustify-release.git
+  rcss3d_agent-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcss3d_agent-release.git
+  rcdiscover-release:
+    type: git
+    url: https://github.com/ros2-gbp/rcdiscover-release.git
+  rc_genicam_driver_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/rc_genicam_driver_ros2-release.git
+  rc_genicam_api-release:
+    type: git
+    url: https://github.com/ros2-gbp/rc_genicam_api-release.git
+  rc_dynamics_api-release:
+    type: git
+    url: https://github.com/ros2-gbp/rc_dynamics_api-release.git
+  rc_common_msgs_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/rc_common_msgs_ros2-release.git
+  random_numbers-release:
+    type: git
+    url: https://github.com/ros2-gbp/random_numbers-release.git
+  radar_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/radar_msgs-release.git
+  r2r_spl-release:
+    type: git
+    url: https://github.com/ros2-gbp/r2r_spl-release.git
+  quaternion_operation-release:
+    type: git
+    url: https://github.com/ros2-gbp/quaternion_operation-release.git
+  qpoases_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/qpoases_vendor-release.git
+  py_trees_ros_interfaces-release:
+    type: git
+    url: https://github.com/ros2-gbp/py_trees_ros_interfaces-release.git
+  py_trees_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/py_trees_ros-release.git
+  py_trees-release:
+    type: git
+    url: https://github.com/ros2-gbp/py_trees-release.git
+  pose_cov_ops-release:
+    type: git
+    url: https://github.com/ros2-gbp/pose_cov_ops-release.git
+  polygon_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/polygon_ros-release.git
+  pointcloud_to_laserscan-release:
+    type: git
+    url: https://github.com/ros2-gbp/pointcloud_to_laserscan-release.git
+  point_cloud_msg_wrapper-release:
+    type: git
+    url: https://github.com/ros2-gbp/point_cloud_msg_wrapper-release.git
+  plotjuggler-ros-plugins-release:
+    type: git
+    url: https://github.com/ros2-gbp/plotjuggler-ros-plugins-release.git
+  plotjuggler_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/plotjuggler_msgs-release.git
+  pinocchio-release:
+    type: git
+    url: https://github.com/ros2-gbp/pinocchio-release.git
+  picknik_ament_copyright-release:
+    type: git
+    url: https://github.com/ros2-gbp/picknik_ament_copyright-release.git
+  pick_ik-release:
+    type: git
+    url: https://github.com/ros2-gbp/pick_ik-release.git
+  phidgets_drivers-release:
+    type: git
+    url: https://github.com/ros2-gbp/phidgets_drivers-release.git
+  performance_test-release:
+    type: git
+    url: https://github.com/ros2-gbp/performance_test-release.git
+  perception_pcl-release:
+    type: git
+    url: https://github.com/ros2-gbp/perception_pcl-release.git
+  pcl_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/pcl_msgs-release.git
+  ouxt_common-release:
+    type: git
+    url: https://github.com/ros2-gbp/ouxt_common-release.git
+  osqp_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/osqp_vendor-release.git
+  odom_to_tf_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/odom_to_tf_ros2-release.git
+  octomap_rviz_plugins-release:
+    type: git
+    url: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
+  octomap_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/octomap_ros-release.git
+  octomap_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/octomap_msgs-release.git
+  octomap_mapping-release:
+    type: git
+    url: https://github.com/ros2-gbp/octomap_mapping-release.git
+  octomap-release:
+    type: git
+    url: https://github.com/ros2-gbp/octomap-release.git
+  object_recognition_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/object_recognition_msgs-release.git
+  ntrip_client-release:
+    type: git
+    url: https://github.com/ros2-gbp/ntrip_client-release.git
+  ntpd_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/ntpd_driver-release.git
+  nodl_to_policy-release:
+    type: git
+    url: https://github.com/ros2-gbp/nodl_to_policy-release.git
+  nodl-release:
+    type: git
+    url: https://github.com/ros2-gbp/nodl-release.git
+  nmea_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/nmea_msgs-release.git
+  nmea_hardware_interface-release:
+    type: git
+    url: https://github.com/ros2-gbp/nmea_hardware_interface-release.git
+  neo_simulation2-release:
+    type: git
+    url: https://github.com/ros2-gbp/neo_simulation2-release.git
+  mrt_cmake_modules-release:
+    type: git
+    url: https://github.com/ros2-gbp/mrt_cmake_modules-release.git
+  moveit_visual_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/moveit_visual_tools-release.git
+  micro_ros_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/micro_ros_msgs-release.git
+  micro_ros_diagnostics-release:
+    type: git
+    url: https://github.com/ros2-gbp/micro_ros_diagnostics-release.git
+  locator_ros_bridge-release:
+    type: git
+    url: https://github.com/ros2-gbp/locator_ros_bridge-release.git
+  libpointmatcher-release:
+    type: git
+    url: https://github.com/ros2-gbp/libpointmatcher-release.git
+  libnabo-release:
+    type: git
+    url: https://github.com/ros2-gbp/libnabo-release.git
+  libg2o-release:
+    type: git
+    url: https://github.com/ros2-gbp/libg2o-release.git
+  lgsvl_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/lgsvl_msgs-release.git
+  launch_param_builder-release:
+    type: git
+    url: https://github.com/ros2-gbp/launch_param_builder-release.git
+  laser_proc-release:
+    type: git
+    url: https://github.com/ros2-gbp/laser_proc-release.git
+  kobuki_velocity_smoother-release:
+    type: git
+    url: https://github.com/ros2-gbp/kobuki_velocity_smoother-release.git
+  kobuki_ros_interfaces-release:
+    type: git
+    url: https://github.com/ros2-gbp/kobuki_ros_interfaces-release.git
+  kobuki_core-release:
+    type: git
+    url: https://github.com/ros2-gbp/kobuki_core-release.git
+  kinematics_interface-release:
+    type: git
+    url: https://github.com/ros2-gbp/kinematics_interface-release.git
+  joy_tester-release:
+    type: git
+    url: https://github.com/ros2-gbp/joy_tester-release.git
+  irobot_create_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/irobot_create_msgs-release.git
+  imu_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/imu_tools-release.git
+  image_pipeline-release:
+    type: git
+    url: https://github.com/ros2-gbp/image_pipeline-release.git
+  ifm3d-release:
+    type: git
+    url: https://github.com/ros2-gbp/ifm3d-release.git
+  iceoryx-release:
+    type: git
+    url: https://github.com/ros2-gbp/iceoryx-release.git
+  hpp_fcl-release:
+    type: git
+    url: https://github.com/ros2-gbp/hpp_fcl-release.git
+  hls_lfcd_lds_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/hls_lfcd_lds_driver-release.git
+  hash_library_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/hash_library_vendor-release.git
+  gscam-release:
+    type: git
+    url: https://github.com/ros2-gbp/gscam-release.git
+  grbl_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/grbl_ros-release.git
+  grbl_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/grbl_msgs-release.git
+  graph_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/graph_msgs-release.git
+  geometry_tutorials-release:
+    type: git
+    url: https://github.com/ros2-gbp/geometry_tutorials-release.git
+  geometric_shapes-release:
+    type: git
+    url: https://github.com/ros2-gbp/geometric_shapes-release.git
+  fuse-release:
+    type: git
+    url: https://github.com/ros2-gbp/fuse-release.git
+  ros_foxglove_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_foxglove_msgs-release.git
+  four_wheel_steering_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/four_wheel_steering_msgs-release.git
+  fluent_rviz-release:
+    type: git
+    url: https://github.com/ros2-gbp/fluent_rviz-release.git
+  find_object_2d-release:
+    type: git
+    url: https://github.com/ros2-gbp/find_object_2d-release.git
+  filters-release:
+    type: git
+    url: https://github.com/ros2-gbp/filters-release.git
+  eigenpy-release:
+    type: git
+    url: https://github.com/ros2-gbp/eigenpy-release.git
+  eigen_stl_containers-release:
+    type: git
+    url: https://github.com/ros2-gbp/eigen_stl_containers-release.git
+  ecl_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/ecl_tools-release.git
+  ecl_lite-release:
+    type: git
+    url: https://github.com/ros2-gbp/ecl_lite-release.git
+  ecl_core-release:
+    type: git
+    url: https://github.com/ros2-gbp/ecl_core-release.git
+  dynamixel_workbench_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/dynamixel_workbench_msgs-release.git
+  dynamixel_workbench-release:
+    type: git
+    url: https://github.com/ros2-gbp/dynamixel_workbench-release.git
+  dynamixel_sdk-release:
+    type: git
+    url: https://github.com/ros2-gbp/dynamixel_sdk-release.git
+  dynamixel_hardware-release:
+    type: git
+    url: https://github.com/ros2-gbp/dynamixel_hardware-release.git
+  domain_bridge-release:
+    type: git
+    url: https://github.com/ros2-gbp/domain_bridge-release.git
+  dolly-release:
+    type: git
+    url: https://github.com/ros2-gbp/dolly-release.git
+  cudnn_cmake_module-release:
+    type: git
+    url: https://github.com/ros2-gbp/cudnn_cmake_module-release.git
+  cpp_polyfills-release:
+    type: git
+    url: https://github.com/ros2-gbp/cpp_polyfills-release.git
+  color_util-release:
+    type: git
+    url: https://github.com/ros2-gbp/color_util-release.git
+  color_names-release:
+    type: git
+    url: https://github.com/ros2-gbp/color_names-release.git
+  cartographer_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/cartographer_ros-release.git
+  cartographer-release:
+    type: git
+    url: https://github.com/ros2-gbp/cartographer-release.git
+  boost_geometry_util-release:
+    type: git
+    url: https://github.com/ros2-gbp/boost_geometry_util-release.git
+  bond_core-release:
+    type: git
+    url: https://github.com/ros2-gbp/bond_core-release.git
+  bno055-release:
+    type: git
+    url: https://github.com/ros2-gbp/bno055-release.git
+  bag2_to_image-release:
+    type: git
+    url: https://github.com/ros2-gbp/bag2_to_image-release.git
+  backward_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/backward_ros-release.git
+  avt_vimba_camera-release:
+    type: git
+    url: https://github.com/ros2-gbp/avt_vimba_camera-release.git
+  autoware_auto_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/autoware_auto_msgs-release.git
+  automotive_autonomy_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/automotive_autonomy_msgs-release.git
+  async_web_server_cpp-release:
+    type: git
+    url: https://github.com/ros2-gbp/async_web_server_cpp-release.git
+  apriltag_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/apriltag_ros-release.git
+  apriltag_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/apriltag_msgs-release.git
+  apriltag-release:
+    type: git
+    url: https://github.com/ros2-gbp/apriltag-release.git
+  apex_test_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/apex_test_tools-release.git
+  apex_containers-release:
+    type: git
+    url: https://github.com/ros2-gbp/apex_containers-release.git
+  angles-release:
+    type: git
+    url: https://github.com/ros2-gbp/angles-release.git
+  ament_vitis-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_vitis-release.git
+  ament_nodl-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_nodl-release.git
+  ament_download-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_download-release.git
+  ament_acceleration-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_acceleration-release.git
+  adaptive_component-release:
+    type: git
+    url: https://github.com/ros2-gbp/adaptive_component-release.git
+  actuator_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/actuator_msgs-release.git
+  ackermann_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/ackermann_msgs-release.git
+  acado_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/acado_vendor-release.git
+  maliput_integration-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_integration-release.git
+  maliput_osm-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_osm-release.git
+  maliput_drake-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_drake-release.git
+  maliput_multilane-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_multilane-release.git
+  maliput_dragway-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_dragway-release.git
+  tuw_rviz_plugins-release:
+    type: git
+    url: https://github.com/ros2-gbp/tuw_rviz_plugins-release.git
+  camera_ros-release:
+    type: git
+    url: https://github.com/ros2-gbp/camera_ros-release.git
+  turtlebot4_robot-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot4_robot-release.git
+  warehouse_ros_mongo-release:
+    type: git
+    url: https://github.com/ros2-gbp/warehouse_ros_mongo-release.git
+  orocos_kinematics_dynamics-release:
+    type: git
+    url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
+  maliput_py-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_py-release.git
+  maliput_viz-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_viz-release.git
+  maliput-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput-release.git
+  turtlebot4_setup-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot4_setup-release.git
+  schunk_svh_ros_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/schunk_svh_ros_driver-release.git
+  schunk_svh_library-release:
+    type: git
+    url: https://github.com/ros2-gbp/schunk_svh_library-release.git
+  turtlebot4_desktop-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot4_desktop-release.git
+  maliput_sparse-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_sparse-release.git
+  moveit_task_constructor-release:
+    type: git
+    url: https://github.com/ros2-gbp/moveit_task_constructor-release.git
+  ld08_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/ld08_driver-release.git
+  wall_follower_ros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/wall_follower_ros2-release.git
+  raspimouse_description-release:
+    type: git
+    url: https://github.com/ros2-gbp/raspimouse_description-release.git
+  rt_usb_9axisimu_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/rt_usb_9axisimu_driver-release.git
+  py_trees_ros_viewer-release:
+    type: git
+    url: https://github.com/ros2-gbp/py_trees_ros_viewer-release.git
+  tuw_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/tuw_msgs-release.git
+  marker_rviz_plugin-release:
+    type: git
+    url: https://github.com/ros2-gbp/marker_rviz_plugin-release.git
+  marker_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/marker_msgs-release.git
+  leo_robot-release:
+    type: git
+    url: https://github.com/ros2-gbp/leo_robot-release.git
+  maliput_infrastructure-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_infrastructure-release.git
+  maliput_malidrive-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_malidrive-release.git
+  ros2_object_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_object_msgs-release.git
+  rosbag2_storage_mcap-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosbag2_storage_mcap-release.git
+  foros-release:
+    type: git
+    url: https://github.com/ros2-gbp/foros-release.git
+  rmf_demos-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmf_demos-release.git
+  pepper_meshes-release:
+    type: git
+    url: https://github.com/ros2-gbp/pepper_meshes-release.git
+  naoqi_bridge_msgs-release:
+    type: git
+    url: https://github.com/ros2-gbp/naoqi_bridge_msgs-release.git
+  naoqi_driver-release:
+    type: git
+    url: https://github.com/ros2-gbp/naoqi_driver-release.git
+  nao_meshes-release:
+    type: git
+    url: https://github.com/ros2-gbp/nao_meshes-release.git
+  libqicore-release:
+    type: git
+    url: https://github.com/ros2-gbp/libqicore-release.git
+  libqi-release:
+    type: git
+    url: https://github.com/ros2-gbp/libqi-release.git
+  leo_desktop-release:
+    type: git
+    url: https://github.com/ros2-gbp/leo_desktop-release.git
+  ROS2_Robotino-release:
+    type: git
+    url: https://github.com/ros2-gbp/ROS2_Robotino-release.git
+  linear_sum_assignment-release:
+    type: git
+    url: https://github.com/ros2-gbp/linear_sum_assignment-release.git
+  leo_common-release:
+    type: git
+    url: https://github.com/ros2-gbp/leo_common-release.git
+  maliput_object_py-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_object_py-release.git
+  maliput_object-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_object-release.git
+  soccer_vision_2d_layers-release:
+    type: git
+    url: https://github.com/ros2-gbp/soccer_vision_2d_layers-release.git
+  fogros2-release:
+    type: git
+    url: https://github.com/ros2-gbp/fogros2-release.git
+  tsid-release:
+    type: git
+    url: https://github.com/ros2-gbp/tsid-release.git
+  maliput_documentation-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_documentation-release.git
+  maliput_integration_tests-release:
+    type: git
+    url: https://github.com/ros2-gbp/maliput_integration_tests-release.git
+  turtlebot4_examples-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot4_examples-release.git
+  rosidl_typesupport_gurumdds-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_typesupport_gurumdds-release.git
+  rqt_top-release:
+    type: git
+    url: https://github.com/ros2-gbp/rqt_top-release.git
+  mrpt_sensors-release:
+    type: git
+    url: https://github.com/ros2-gbp/mrpt_sensors-release.git
+  mrpt_slam-release:
+    type: git
+    url: https://github.com/ros2-gbp/mrpt_slam-release.git
+  mrpt_navigation-release:
+    type: git
+    url: https://github.com/ros2-gbp/mrpt_navigation-release.git
+  rosbag2_bag_v2-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosbag2_bag_v2-release.git
+  osrf_testings_tools_cpp-release:
+    type: git
+    url: https://github.com/ros2-gbp/osrf_testings_tools_cpp-release.git
+  fcl-release:
+    type: git
+    url: https://github.com/ros2-gbp/fcl-release.git
+  ign_rviz-release:
+    type: git
+    url: https://github.com/ros2-gbp/ign_rviz-release.git
+  rosidl_typesupport_connext-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
+  rmw_connext-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_connext-release.git
+  rosauth-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosauth-release.git
+  poco_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/poco_vendor-release.git
+  librealsense-release:
+    type: git
+    url: https://github.com/ros2-gbp/librealsense-release.git
+  tinydir_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/tinydir_vendor-release.git
+  rosidl_typesupport_opensplice-release:
+    type: git
+    url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
+  rmw_opensplice-release:
+    type: git
+    url: https://github.com/ros2-gbp/rmw_opensplice-release.git
+  ros2_intel_realsense-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_intel_realsense-release.git
+  slide_show-release:
+    type: git
+    url: https://github.com/ros2-gbp/slide_show-release.git
+  pcl_conversions-release:
+    type: git
+    url: https://github.com/ros2-gbp/pcl_conversions-release.git
+  web_video_server-release:
+    type: git
+    url: https://github.com/ros2-gbp/web_video_server-release.git
+  ros2_object_analytics-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros2_object_analytics-release.git
+  console_bridge-release:
+    type: git
+    url: https://github.com/ros2-gbp/console_bridge-release.git
+  turtlebot2_demo-release:
+    type: git
+    url: https://github.com/ros2-gbp/turtlebot2_demo-release.git
+  ros_astra_camera-release:
+    type: git
+    url: https://github.com/ros2-gbp/ros_astra_camera-release.git
+  navigation-release:
+    type: git
+    url: https://github.com/ros2-gbp/navigation-release.git
+  uncrustify-release:
+    type: git
+    url: https://github.com/ros2-gbp/uncrustify-release.git
+  ament_tools-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_tools-release.git
+  robot_model-release:
+    type: git
+    url: https://github.com/ros2-gbp/robot_model-release.git
+  ceres_solver-release:
+    type: git
+    url: https://github.com/ros2-gbp/ceres_solver-release.git
+  system_tests-release:
+    type: git
+    url: https://github.com/ros2-gbp/system_tests-release.git
+  ament_python-release:
+    type: git
+    url: https://github.com/ros2-gbp/ament_python-release.git
+  gtest_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/gtest_vendor-release.git
+  gmock_vendor-release:
+    type: git
+    url: https://github.com/ros2-gbp/gmock_vendor-release.git
