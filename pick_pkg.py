@@ -20,7 +20,8 @@ with open('ros2_release_humble.repos', 'r') as f:
 repo ={}
 repo['repositories'] = {}
 i = 0
-with open(argparse_repos(), 'r') as f:
+filename=argparse_repos()
+with open(filename, 'r') as f:
   for line in f:
     line = line.strip()
     i += 1
@@ -32,4 +33,4 @@ with open(argparse_repos(), 'r') as f:
         # print(config.get('repositories').get(pkg))
         repo['repositories'][pkg] =  config.get('repositories').get(pkg)
 
-save_dict_to_yaml(repo, "kaylor-pkg.repos")
+save_dict_to_yaml(repo, os.path.splitext(filename)[0]+".repos")
