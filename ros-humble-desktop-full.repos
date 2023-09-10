@@ -1295,3 +1295,7 @@ repositories:
     type: git
     url: https://github.com/ros2-gbp/rosbag2-release.git
     version: debian/ros-humble-zstd-vendor_0.15.7-1_jammy
+  ros-humble-osrf-testing-tools-cpp:
+    type: git
+    url: https://github.com/ros2-gbp/osrf_testing_tools_cpp-release.git
+    version: debian/ros-humble-osrf-testing-tools-cpp_1.5.2-1_jammy
