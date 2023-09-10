@@ -1,4 +1,8 @@
 repositories:
+  ros-humble-ament-cmake-google-benchmark:
+    type: git
+    url: https://github.com/ros2-gbp/ament_cmake-release.git
+    version: debian/ros-humble-ament-cmake-google-benchmark_1.3.5-1_jammy
   ros-humble-mimick-vendor:
     type: git
     url: https://github.com/ros2-gbp/mimick_vendor-release.git
@@ -7,3 +11,15 @@ repositories:
     type: git
     url: https://github.com/ros2-gbp/osrf_testing_tools_cpp-release.git
     version: debian/ros-humble-osrf-testing-tools-cpp_1.5.2-1_jammy
+  ros-humble-performance-test-fixture:
+    type: git
+    url: https://github.com/ros2-gbp/performance_test_fixture-release.git
+    version: debian/ros-humble-performance-test-fixture_0.0.9-1_jammy
+  ros-humble-rosbag2-test-common:
+    type: git
+    url: https://github.com/ros2-gbp/rosbag2-release.git
+    version: debian/ros-humble-rosbag2-test-common_0.15.7-1_jammy
+  ros-humble-test-msgs:
+    type: git
+    url: https://github.com/ros2-gbp/rcl_interfaces-release.git
+    version: debian/ros-humble-test-msgs_1.2.1-1_jammy
